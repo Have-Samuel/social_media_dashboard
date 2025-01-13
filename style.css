@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
 
  /* Colors */
@@ -47,6 +48,7 @@
 
 body {
     width: 375px;
+    background-color: #e9e8e8;
     margin: 1rem auto 1rem;
     font-family: 'Inter', sans-serif;
     border: 2px solid red;
@@ -74,6 +76,12 @@ header p {
     color: var(--Desaturated-Blue-Text);
     padding-top: 0.5rem;
     font-weight: bold;
+}
+
+main {
+    background-color: #F7F9FF;
+    border-radius: 2rem 2rem 0 0;
+    /* border: 2px solid blue; */
 }
 
 hr {
@@ -172,4 +180,12 @@ header .mode {
   }
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
     background: #bcbdbc;
+  }
+
+  .same {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Very-Pale-Blue-Top-BG-Pattern);
+    width: 326px;
+    height: 216px;
   }
