@@ -19,25 +19,25 @@
 
 /* #### Light Theme */
 
---Toggle: hsl(230, 22%, 74%);
+--Toggle-light: hsl(230, 22%, 74%);
 
 /* ### Neutral */
 
 /* #### Dark Theme */
 
---Very-Dark-Blue-BG: hsl(230, 17%, 14%);
---Very-Dark-Blue-Top-BG-Pattern: hsl(232, 19%, 15%);
---Dark-Desaturated-Blue-Card-BG: hsl(228, 28%, 20%);
---Desaturated-Blue-Text: hsl(229, 16%, 39%);
+--Very-Dark-Blue-BG: #1e202a;
+--Very-Dark-Blue-Top-BG-Pattern: #1f212e;
+--Dark-Desaturated-Blue-Card-BG: #252a41;
+--Desaturated-Blue-Text: #545973;
 --White1-Text: hsl(0, 0%, 100%);
 
 /* #### Light Theme */
 
 --White-BG: hsl(0, 0%, 100%);
---Very-Pale-Blue-Top-BG-Pattern: hsl(225, 100%, 98%);
---Light-Grayish-Blue-Card-BG: hsl(227, 47%, 96%);
---Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
---Very-Dark-Blue-Text: hsl(230, 17%, 14%);
+--Very-Pale-Blue-Top-BG-Pattern: #f5f7ff;
+--Light-Grayish-Blue-Card-BG: #f0f2fa;
+--Dark-Grayish-Blue-Text: #63687e;
+--Very-Dark-Blue-Text: #1e202a;
 }
 
 * {
@@ -54,11 +54,18 @@ body {
     border: 2px solid red;
 }
 
+main {
+  background-color: #F7F9FF;
+  border-radius: 0 0 2rem 2rem;
+}
+
 header {
-    background-color: #F7F9FF;
+    background-color: #e8ecf8;
     height: 235px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 0 0 2rem 2rem;
+    /* position: relative; */
+    z-index: -1;
 }
 
 header h1 {
@@ -76,12 +83,6 @@ header p {
     color: var(--Desaturated-Blue-Text);
     padding-top: 0.5rem;
     font-weight: bold;
-}
-
-main {
-    background-color: #F7F9FF;
-    border-radius: 2rem 2rem 0 0;
-    /* border: 2px solid blue; */
 }
 
 hr {
@@ -104,13 +105,10 @@ header .mode {
     color: var(--Desaturated-Blue-Text);
     font-weight: bold;
 }
-.mode input {
-    
-}
 
-  .checkbox-wrapper-6 .tgl {
+.checkbox-wrapper-6 .tgl {
     display: none;
-  }
+}
   .checkbox-wrapper-6 .tgl,
   .checkbox-wrapper-6 .tgl:after,
   .checkbox-wrapper-6 .tgl:before,
@@ -171,7 +169,8 @@ header .mode {
     border-radius: 2rem;
     padding: 2px;
     transition: all 0.4s ease;
-    background-color: red;
+    /* linear gradient */
+    background-color: var(--Toggle);
   }
   .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
     border-radius: 50%;
@@ -179,13 +178,26 @@ header .mode {
     transition: all 0.2s ease;
   }
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
-    background: #bcbdbc;
+    background: var(--Toggle-light);
   }
 
   .same {
     display: flex;
     justify-content: space-between;
-    background-color: var(--Very-Pale-Blue-Top-BG-Pattern);
+    background-color:#d6d5d5;
     width: 326px;
     height: 216px;
+    margin: 0 auto 1rem auto;
+    z-index: 1;
+    border-radius: 1rem;
+  }
+
+  .overlap {
+    margin-top: -3rem;
+    border-top: 4px var(--Facebook) solid;
+    background-color: var();
+  }
+
+  .twitter {
+    border-top: 4px var(--Twitter) solid;
   }
