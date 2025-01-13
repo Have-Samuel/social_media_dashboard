@@ -170,7 +170,7 @@ header .mode {
     padding: 2px;
     transition: all 0.4s ease;
     /* linear gradient */
-    background-color: var(--Toggle);
+    background-image: var(--Toggle);
   }
   .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
     border-radius: 50%;
@@ -200,4 +200,8 @@ header .mode {
 
   .twitter {
     border-top: 4px var(--Twitter) solid;
+  }
+
+  .instagram {
+    border-top: 4px var(--Instagram) solid;
   }
