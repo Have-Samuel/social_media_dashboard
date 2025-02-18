@@ -189,13 +189,12 @@ header .mode {
     height: 216px;
     margin: 0 auto 1rem auto;
     z-index: 1;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
   }
 
   .overlap {
     margin-top: -3rem;
     border-top: 4px var(--Facebook) solid;
-    background-color: var();
   }
 
   .twitter {
@@ -204,4 +203,9 @@ header .mode {
 
   .instagram {
     border-top: 4px var(--Instagram) solid;
+    border-top: 4px solid rgb(248, 83, 62);
+  }
+
+  .youtube {
+    border-top: 4px var(--YouTube) solid
   }
