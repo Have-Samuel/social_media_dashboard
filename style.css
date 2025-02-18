@@ -209,3 +209,9 @@ header .mode {
   .youtube {
     border-top: 4px var(--YouTube) solid
   }
+
+  footer h3 {
+    font-family: ;
+    color: #63687D;
+    font-size: ;
+  }
