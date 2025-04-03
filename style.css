@@ -213,3 +213,14 @@ header .mode {
   footer h3 {
     color: #63687D;
   }
+
+  .same {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .same img {
+
+  }
