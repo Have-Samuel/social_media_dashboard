@@ -217,10 +217,15 @@ header .mode {
   .same {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
 
-  .same img {
-
+  .combine {
+    display: flex;
+    
+  }
+ 
+  .combine img {
+    
   }
