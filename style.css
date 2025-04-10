@@ -216,6 +216,17 @@ header .mode {
     border-radius: 0.3rem;
   }
 
+  .subsec {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+    /* width: 326px; */
+    margin: 0 auto;
+    padding-top: 1rem;
+    align-items: center;
+  }
+
   .combine {
     
   }
