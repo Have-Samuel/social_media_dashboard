@@ -203,13 +203,6 @@ header .mode {
     color: #63687D;
   }
 
-  /* .same {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .same {
     display: flex;
     flex-direction: column;
@@ -224,10 +217,16 @@ header .mode {
   }
 
   .combine {
-    display: flex;
     
   }
  
   .combine img {
     
+  }
+
+  .combine h3 {
+    font-size: 1.5rem;
+    color: var(--Very-Dark-Blue-Text);
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
