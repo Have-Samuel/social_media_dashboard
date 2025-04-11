@@ -288,4 +288,12 @@ header .mode {
     color: #1EB589;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    cursor: pointer;
+  }
+
+  .date p:hover {
+    color: var(--bright_Red);
+  }
+  .date p:active {
+    color: var(--lime_Green);
   }
