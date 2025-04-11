@@ -263,3 +263,13 @@ header .mode {
     align-items: center;
     /* gap: 0.5rem; */
   }
+  
+  .para .follo {
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+    color: #63687D;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
