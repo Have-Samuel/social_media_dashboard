@@ -297,3 +297,10 @@ header .mode {
   .date p:active {
     color: var(--lime_Green);
   }
+
+  footer h3 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
