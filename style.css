@@ -205,7 +205,6 @@ header .mode {
   .same {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     background-color:#e9e9e9;
     width: 326px;
@@ -231,9 +230,9 @@ header .mode {
     align-items: center;
     background-color: #e9e9e9;
     width: 326px;
-    /* margin: 0 auto 1rem auto; */
     z-index: 1;
     border-radius: 0.3rem;
+    text-align: center;
   }
  
   .subsec .year {
@@ -281,6 +280,7 @@ header .mode {
     gap: 0.5rem;
     color: #63687D;
     font-family: "Inter", sans-serif;
+    text-align: center;
   }
 
   .date p {
