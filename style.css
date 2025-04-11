@@ -48,15 +48,17 @@
 
 body {
     width: 375px;
-    background-color: #e9e8e8;
+    height: 100vh;
+    /* background-color: #e9e8e8; */
     margin: 1rem auto 1rem;
     font-family: 'Inter', sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 main {
   background-color: #F7F9FF;
-  border-radius: 0 0 2rem 2rem;
+  /* border-radius: 0 0 2rem 2rem; */
+  /* margin-bottom: 2rem; */
 }
 
 header {
@@ -352,4 +354,11 @@ header .mode {
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
+  }
+
+  .attribution {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--Desaturated-Blue-Text);
+    margin-bottom: 1rem;
   }
