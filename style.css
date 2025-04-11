@@ -317,3 +317,39 @@ header .mode {
     justify-content: center;
     align-items: center; */
   }
+
+  .box_shape .display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .box_shape .display p {
+    font-size: 1rem;
+    color: #63687D;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .box_shape .numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 1rem; 
+  }
+
+  .numbers .arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
