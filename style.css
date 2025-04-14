@@ -52,13 +52,10 @@ body {
     /* background-color: #e9e8e8; */
     margin: 1rem auto 1rem;
     font-family: 'Inter', sans-serif;
-    /* border: 2px solid red; */
 }
 
 main {
   background-color: #F7F9FF;
-  /* border-radius: 0 0 2rem 2rem; */
-  /* margin-bottom: 2rem; */
 }
 
 header {
