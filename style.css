@@ -309,10 +309,6 @@ header .mode {
     margin: 0 auto 1rem auto;
     z-index: 1;
     border-radius: 0.3rem;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
   }
 
   .box_shape .display {
