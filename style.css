@@ -48,7 +48,7 @@
 
 body {
     width: 375px;
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: #e9e8e8; */
     margin: 1rem auto 1rem;
     font-family: 'Inter', sans-serif;
@@ -358,8 +358,8 @@ header .mode {
     font-size: 11px;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 3.5rem;
   }
+  
   .attribution a {
     text-decoration: none;
     font-weight: bold;
