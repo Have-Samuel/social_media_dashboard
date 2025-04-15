@@ -353,3 +353,14 @@ header .mode {
     color: var(--Desaturated-Blue-Text);
     margin-bottom: 1rem;
   }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+  }
+  .attribution a {
+    text-decoration: none;
+    font-weight: bold;
+  }
