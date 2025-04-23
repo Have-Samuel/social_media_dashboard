@@ -376,7 +376,7 @@ header .mode {
         height: 235px;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        justify-content: center;
     }
 
     header h1 {
@@ -394,13 +394,13 @@ header .mode {
         width: 100%;
         margin: 0 auto;
     }
-    .checkbox-wrapper-6 .tgl + .tgl-btn {
+    /* .checkbox-wrapper-6 .tgl + .tgl-btn {
         width: 3rem;
         height: 1.5rem;
-    }
-    .checkbox-wrapper-6 .tgl-light + .tgl-btn {
+    } */
+    /* .checkbox-wrapper-6 .tgl-light + .tgl-btn {
         width: 3rem;
         height: 1.5rem;
-    }
+    } */
     
 }
