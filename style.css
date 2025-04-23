@@ -374,9 +374,15 @@ header .mode {
     header {
         width: 100%;
         height: 235px;
+    }
+
+    .space {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        
     }
 
     header h1 {
@@ -392,7 +398,9 @@ header .mode {
     }
     .mode {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        gap: 1rem;
+        
     }
     /* .checkbox-wrapper-6 .tgl + .tgl-btn {
         width: 3rem;
