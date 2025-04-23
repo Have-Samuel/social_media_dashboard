@@ -379,7 +379,7 @@ header .mode {
     .space {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
         gap: 1rem;
         
@@ -393,14 +393,17 @@ header .mode {
         font-size: 1.2rem;
         padding-left: 2rem;
     }
+
     hr {
         display: none;
     }
-    .mode {
-        width: 100%;
-        /* margin: 0 auto; */
-        gap: 1rem;
-        
+
+    header .space .mode {
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        /* display: none; */
     }
     /* .checkbox-wrapper-6 .tgl + .tgl-btn {
         width: 3rem;
