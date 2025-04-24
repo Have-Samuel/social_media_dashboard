@@ -176,10 +176,11 @@ header .mode {
     background: var(--Toggle-light);
   }
 
-  .overlap {
+  /* .overlap {
     margin-top: -3rem;
     border-top: 4px var(--Facebook) solid;
-  }
+    border: 3px solid red;
+  } */
 
   .twitter {
     border-top: 4px var(--Twitter) solid;
@@ -397,7 +398,7 @@ header .mode {
     }
 
     .whole {
-      border: 1px solid red;
+      /* border: 1px solid red; */
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -405,17 +406,17 @@ header .mode {
     }
 
     .social {
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      /* align-items: center; */
       gap: 1rem;
       margin: 2rem 1rem;
     }
 
     .sub {
-      border: 1px solid green;
+      /* border: 1px solid green; */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -424,20 +425,7 @@ header .mode {
       margin: 2rem 1rem;
     }
 
-    header .mode {
-        /* width: 100%; */
-        display: flex;
-        justify-content: space-evenly;
-        /* align-items: center; */
-        /* display: none; */
-    }
-    /* .checkbox-wrapper-6 .tgl + .tgl-btn {
-        width: 3rem;
-        height: 1.5rem;
-    } */
-    /* .checkbox-wrapper-6 .tgl-light + .tgl-btn {
-        width: 3rem;
-        height: 1.5rem;
-    } */
+   .overlap {
     
+   }
 }
