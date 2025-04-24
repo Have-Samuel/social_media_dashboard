@@ -176,10 +176,11 @@ header .mode {
     background: var(--Toggle-light);
   }
 
-  .overlap {
+  /* .overlap {
     margin-top: -3rem;
     border-top: 4px var(--Facebook) solid;
-  }
+    border: 3px solid red;
+  } */
 
   .twitter {
     border-top: 4px var(--Twitter) solid;
@@ -256,7 +257,6 @@ header .mode {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 0.5rem; */
   }
   
   .para .follo {
@@ -376,14 +376,13 @@ header .mode {
         height: 235px;
     }
 
-    .space {
+    /* .space {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         align-items: center;
         gap: 1rem;
-        
-    }
+    } */
 
     header h1 {
         font-size: 2rem;
@@ -398,20 +397,41 @@ header .mode {
         display: none;
     }
 
-    header .space .mode {
-        /* width: 100%; */
-        display: flex;
-        justify-content: space-evenly;
-        /* align-items: center; */
-        /* display: none; */
+    .whole {
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 3rem;
     }
-    /* .checkbox-wrapper-6 .tgl + .tgl-btn {
-        width: 3rem;
-        height: 1.5rem;
-    } */
-    /* .checkbox-wrapper-6 .tgl-light + .tgl-btn {
-        width: 3rem;
-        height: 1.5rem;
-    } */
-    
+
+    .social {
+      /* border: 1px solid blue; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+
+    .sub {
+      /* border: 1px solid green; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+
+   .fast_section {
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    /* padding: 1rem; */
+    border: 2px solid red;
+   }
 }
