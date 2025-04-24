@@ -425,7 +425,13 @@ header .mode {
       margin: 2rem 1rem;
     }
 
-   .overlap {
-    
+   .fast_section {
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    /* padding: 1rem; */
+    border: 2px solid red;
    }
 }
