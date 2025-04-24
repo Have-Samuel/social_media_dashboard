@@ -256,7 +256,6 @@ header .mode {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 0.5rem; */
   }
   
   .para .follo {
@@ -376,14 +375,13 @@ header .mode {
         height: 235px;
     }
 
-    .space {
+    /* .space {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         align-items: center;
         gap: 1rem;
-        
-    }
+    } */
 
     header h1 {
         font-size: 2rem;
@@ -398,7 +396,7 @@ header .mode {
         display: none;
     }
 
-    header .space .mode {
+    header .mode {
         /* width: 100%; */
         display: flex;
         justify-content: space-evenly;
