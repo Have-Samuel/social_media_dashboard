@@ -396,6 +396,34 @@ header .mode {
         display: none;
     }
 
+    .whole {
+      border: 1px solid red;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 3rem;
+    }
+
+    .social {
+      border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+
+    .sub {
+      border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+
     header .mode {
         /* width: 100%; */
         display: flex;
