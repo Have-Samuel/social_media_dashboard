@@ -176,18 +176,15 @@ header .mode {
     background: var(--Toggle-light);
   }
 
-  /* .overlap {
-    margin-top: -3rem;
+  .face_book {
     border-top: 4px var(--Facebook) solid;
-    border: 3px solid red;
-  } */
+  }
 
   .twitter {
     border-top: 4px var(--Twitter) solid;
   }
 
   .instagram {
-    border-top: 4px var(--Instagram) solid;
     border-top: 4px solid rgb(248, 83, 62);
   }
 
@@ -199,40 +196,38 @@ header .mode {
     color: #63687D;
   }
 
-  .same {
+  .fast_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:#e9e9e9;
     width: 326px;
-    height: 216px;
     margin: 0 auto 1rem auto;
-    z-index: 1;
-    border-radius: 0.3rem;
+    /* padding: 1rem; */
+    
   }
 
-  .subsec {
+  .same {
+    width: 326px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subse {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding-top: 2rem;
     align-items: center;
+    height: 216px;
   }
 
   .combine {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-    background-color: #e9e9e9;
-    width: 326px;
-    z-index: 1;
-    border-radius: 0.3rem;
-    text-align: center;
   }
  
-  .subsec .year {
+  .subse .year {
     font-size: 3.5rem;
     color: var(--Very-Dark-Blue-Text);
     font-family: "Inter", sans-serif;
@@ -415,6 +410,32 @@ header .mode {
       margin: 2rem 1rem;
     }
 
+    .fast_section {
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fast_section .same {
+      display: flex;
+      flex-direction: row;
+      width: 255px;
+      height: 216px;
+      margin: 1rem;
+    }
+
+    .combine {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      background-color: #e9e9e9;
+      width: 255px;
+      z-index: 1;
+      border-radius: 0.3rem;
+    }
+
     .sub {
       /* border: 1px solid green; */
       display: flex;
@@ -426,12 +447,15 @@ header .mode {
     }
 
    .fast_section {
-    width: 1110px;
+    /* width: 1110px;
     display: flex;
     flex-direction: row;
     gap: 1rem;
     margin: 1rem;
-    /* padding: 1rem; */
-    border: 2px solid red;
+    padding: 1rem;
+    border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
    }
+
 }
