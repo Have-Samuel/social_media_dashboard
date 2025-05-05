@@ -61,7 +61,8 @@ header {
     background-color: #e8ecf8;
     height: 235px;
     border-radius: 0 0 2rem 2rem;
-    z-index: -1;
+    z-index: 0;
+    position: relative;
 }
 
 header h1 {
