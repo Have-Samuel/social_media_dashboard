@@ -243,9 +243,8 @@ header .mode {
   }
 
   .same2 {
-    width: 326px;
+    /* width: 326px; */
     align-items: center;
-    /* margin: -2rem 0 0 0; */
     z-index: 0;
   }
 
@@ -258,14 +257,12 @@ header .mode {
     align-items: center;
     height: 216px;
     background-color: green;
-    /* border: 4px solid red; */
     margin-bottom: 1rem;
   }
 
   .same3 {
     /* width: 326px; */
     align-items: center;
-    /* margin: -2rem 0 0 0; */
     z-index: 0;
   }
 
@@ -280,6 +277,12 @@ header .mode {
     background-color: yellow;
     /* border: 4px solid red; */
     margin-bottom: 1rem;
+  }
+
+  .same4 {
+    /* width: 326px; */
+    align-items: center;
+    z-index: 0;
   }
 
   .combine {
