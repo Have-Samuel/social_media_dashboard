@@ -261,7 +261,7 @@ header .mode {
   }
 
   .same3 {
-    /* width: 326px; */
+    width: 326px;
     align-items: center;
     z-index: 0;
   }
