@@ -178,7 +178,7 @@ header .mode {
   }
 
   .face_book {
-    border-top: 4px var(--Facebook) solid;
+    /* border-top: 4px var(--Facebook) solid; */
     border-radius: 0.3rem;
     /* position: relative; */
     /* z-index: 1; */
@@ -206,14 +206,14 @@ header .mode {
     align-items: center;
     width: 326px;
     margin: 0 auto 2rem auto;
-    z-index: 0;
+    /* z-index: 0; */
   }
 
   .same1 {
     width: 326px;
     align-items: center;
     margin: -2rem 0 0 0;
-    z-index: 0;
+    /* z-index: 0; */
   }
 
   .subse_facebook {
@@ -224,8 +224,11 @@ header .mode {
     padding-top: 2rem;
     align-items: center;
     height: 216px;
-    background-color: magenta;
+    /* background-color: magenta; */
     margin-bottom: 1rem;
+    /* border: 1px solid red; */
+    border-top: 4px var(--Facebook) solid;
+    border-radius: 0.3rem;
   }
 
   .subse_twitter {
