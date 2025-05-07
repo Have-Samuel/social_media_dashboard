@@ -36,7 +36,7 @@
 --White-BG: hsl(0, 0%, 100%);
 --Very-Pale-Blue-Top-BG-Pattern: #f5f7ff;
 --Light-Grayish-Blue-Card-BG: #f0f2fa;
---Dark-Grayish-Blue-Text: #63687e;
+--Dark-Grayish-Blue-Text: #e5e6ec;
 --Very-Dark-Blue-Text: #1e202a;
 }
 
@@ -224,7 +224,7 @@ header .mode {
     padding-top: 2rem;
     align-items: center;
     height: 216px;
-    /* background-color: magenta; */
+    background-color: var(--Dark-Grayish-Blue-Text);
     margin-bottom: 1rem;
     /* border: 1px solid red; */
     border-top: 4px var(--Facebook) solid;
