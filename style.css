@@ -208,11 +208,10 @@ header .mode {
   }
 
   .subse_facebook {
-    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     align-items: center;
     height: 216px;
     background-color: var(--Dark-Grayish-Blue-Text);
@@ -281,9 +280,13 @@ header .mode {
   .combine {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: -1.5rem;
   }
  
-  .subse .year {
+  .para .year {
     font-size: 3.5rem;
     color: var(--Very-Dark-Blue-Text);
     font-family: "Inter", sans-serif;
@@ -311,6 +314,7 @@ header .mode {
   }
   
   .para .follo {
+    margin-bottom: -0.5rem;
     font-size: 1.3rem;
     letter-spacing: 0.4rem;
     color: #63687D;
@@ -328,6 +332,7 @@ header .mode {
     color: #63687D;
     font-family: "Inter", sans-serif;
     text-align: center;
+    margin-top: 0.5rem;
   }
 
   .date p {
