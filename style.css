@@ -435,6 +435,13 @@ header .mode {
         height: 235px;
     }
 
+    header .mode {
+        display: flex;
+        justify-content: space-around;
+        width: 140px;
+        margin: 0 auto;
+    }
+
     /* .space {
         display: flex;
         flex-direction: row;
