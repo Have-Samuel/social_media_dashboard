@@ -203,6 +203,7 @@ header .mode {
 
   .same1 {
     width: 326px;
+    height: 216px;
     align-items: center;
     margin: -2rem 0 0 0;
   }
@@ -235,6 +236,8 @@ header .mode {
   }
 
   .same2 {
+    width: 326px;
+    height: 216px;
     align-items: center;
     z-index: 0;
   }
@@ -255,8 +258,8 @@ header .mode {
 
   .same3 {
     width: 326px;
+    height: 216px;
     align-items: center;
-    z-index: 0;
   }
 
   .subse_youtube {
@@ -273,6 +276,8 @@ header .mode {
   }
 
   .same4 {
+    width: 326px;
+    height: 216px;
     align-items: center;
     z-index: 0;
   }
