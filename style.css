@@ -522,6 +522,8 @@ header .mode {
 
    .fast_section {
       width: 1110px;
+      /* width: 165px; */
+      height: 136px;
       margin-top: 1rem;
       gap: 1rem;
       display: flex;
