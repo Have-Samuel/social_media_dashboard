@@ -176,12 +176,16 @@ header .mode {
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
     background: var(--Toggle-light);
   }
-/* 
+
+  /* .facebook {
+    border-top: 4px var(--Facebook) solid;
+  }
+
   .twitter {
     border-top: 4px var(--Twitter) solid;
-  } */
+  }
 
-  /* .instagram {
+  .instagram {
     border-top: 4px solid rgb(248, 83, 62);
   }
 
@@ -528,11 +532,15 @@ header .mode {
     }
 
     .fast_section > div {
-      background-color: #f1f1f1;
-  border: 1px solid black;
+      display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: dodgerblue;
   padding: 10px;
-  font-size: 30px;
-  text-align: center;
+      /* background-color: #f1f1f1; */
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  /* font-size: 30px; */
+  /* text-align: center; */
     }
 
     .container {
@@ -540,8 +548,9 @@ header .mode {
   grid-template-columns: auto auto auto auto;
   background-color: dodgerblue;
   padding: 10px;
+  
 }
-.container > div {
+.container > .same1, .same2, .same3, .same4 {
   background-color: #f1f1f1;
   border: 1px solid black;
   padding: 10px;
