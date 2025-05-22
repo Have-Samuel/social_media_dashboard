@@ -497,9 +497,10 @@ header .mode {
       margin: -6rem auto 0 auto;
     }
 
-    footer {
+    .lower_sec {
       width: 225px;
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto auto auto;
+      
     }
 }
