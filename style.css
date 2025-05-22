@@ -516,14 +516,16 @@ header .mode {
    .fast_section {
       width: 1110px;
       display: grid;
-      /* grid-template-columns: auto auto auto auto; */
-      grid-column-start: 4;
-      background-color: dodgerblue;
+      grid-template-columns: auto auto auto auto;
+      /* background-color: dodgerblue; */
+      /* margin: -2rem 0 0 0; */
     }
 
     .fast_section > .same1, .same2, .same3, .same4 {
       width: 225px;
+      height: 216px;
       /* gap: 2rem; */
+      margin: -6rem auto 0 auto;
     }
 
     .subse_facebook {
