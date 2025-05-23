@@ -56,7 +56,7 @@ body {
 main {
   background-color: #F7F9FF;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 2444px;
+  height: 2480px;
 }
 
 header {
@@ -427,7 +427,7 @@ header .mode {
     }
 
     main {
-      height: 800px;
+      height: 115vh;
     }
 
     .whole {
