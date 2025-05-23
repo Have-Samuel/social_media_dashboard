@@ -26,11 +26,19 @@ Users should be able to:
 
 ## Mobile
 
-![](./screenshot.jpg)
+![](./design/mobile-design-dark.jpg)
 
-## Desktop
+## Mobile(Light)
 
-![]()
+![](./design/mobile-design-light.jpg)
+
+## Desktop(Light)
+
+![](./design/active-states-light.jpg)
+
+## Desktop(Dark)
+
+![](./design/active-states-dark.jpg)
 
 ### Links
 
@@ -58,7 +66,7 @@ Users should be able to:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Have-Samuel/social_media_dashboard/issues).
 
 ## Show your support
 
