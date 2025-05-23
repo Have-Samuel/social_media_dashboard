@@ -163,20 +163,24 @@ header .mode {
   }
 
   .checkbox-wrapper-6 .tgl-light + .tgl-btn {
-    background-color: var(--Dark-Grayish-Blue-Text);
-    border: 1px solid var(--Toggle-light);
+    /* background-color: var(--Dark-Grayish-Blue-Text);
+    border: 1px solid var(--Toggle-light); */
+    border: 1px solid var(--bright_Red);
     border-radius: 2rem;
-    padding: 2px;
     transition: all 0.4s ease;
-    background-image: var(--Toggle);
+    display: flex;
+    align-items: center;
+    background-color: 1px solid var(--Grayish-Blue-Text);    
   }
+
   .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
     border-radius: 50%;
-    background: var(--White-BG);
+    background-color: var(--White-BG);
     transition: all 0.2s ease;
+    border: 1px solid var(--lime_Green);
   }
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
-    background: var(--Toggle-light);
+    background-color: var(--Toggle-light);
   }
 
   .fast_section {
