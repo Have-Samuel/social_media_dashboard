@@ -165,19 +165,19 @@ header .mode {
   .checkbox-wrapper-6 .tgl-light + .tgl-btn {
     /* background-color: var(--Dark-Grayish-Blue-Text);
     border: 1px solid var(--Toggle-light); */
-    border: 1px solid var(--bright_Red);
+    /* border: 1px solid var(--bright_Red); */
     border-radius: 2rem;
     transition: all 0.4s ease;
     display: flex;
     align-items: center;
-    background-color: 1px solid var(--Grayish-Blue-Text);    
+    background-color: var(--Desaturated-Blue-Text);    
   }
 
   .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
     border-radius: 50%;
     background-color: var(--White-BG);
     transition: all 0.2s ease;
-    border: 1px solid var(--lime_Green);
+    /* border: 1px solid var(--lime_Green); */
   }
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
     background-color: var(--Toggle-light);
