@@ -394,6 +394,13 @@ header .mode {
     border-radius: 0.3rem;
   }
 
+  .box_shape:hover {
+    background-color: var(--White-BG);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--Desaturated-Blue-Text);
+  }
+
   .box_shape .display {
     display: flex;
     flex-direction: row;
