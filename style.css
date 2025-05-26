@@ -30,8 +30,8 @@
 --Dark-Desaturated-Blue-Card-BG: #252a41;
 --Desaturated-Blue-Text: #848bab;
 --White1-Text: #ffffff;
---Grayish-Blue-Text: #63687D;
---lighter-Grayish-Blue-Text: #a8a9b6;
+--Grayish-Blue-Text: #8b8da1;
+--lighter-Grayish-Blue-Text: #dfe0ee;
 
 /* #### Light Theme */
 
@@ -215,10 +215,6 @@ header .mode {
 
   .subse_facebook:hover {
     background-color: var(--lighter-Grayish-Blue-Text);
-    border: 1px solid var(--Facebook);
-    /* background-color: #000000;
-    border: 1px solid red;
-    */
     }
 
   .subse_twitter {
@@ -237,7 +233,6 @@ header .mode {
 
   .subse_twitter:hover {
     background-color: var(--lighter-Grayish-Blue-Text);
-    border: 1px solid var(--Twitter);
   }
 
   .same2 {
@@ -261,7 +256,6 @@ header .mode {
 
   .subse_instagram:hover {
     background-color: var(--lighter-Grayish-Blue-Text);
-    border: 1px solid var(--bright_Red);
   }
 
   .same3 {
@@ -293,7 +287,6 @@ header .mode {
 
   .subse_youtube:hover {
     background-color: var(--lighter-Grayish-Blue-Text);
-    border: 1px solid var(--YouTube);
   }
 
   .same4 {
