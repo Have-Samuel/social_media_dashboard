@@ -370,6 +370,10 @@ header .mode {
     cursor: pointer;
   }
 
+  .date .diff {
+    color: var(--bright_Red);
+  }
+
   .date p:hover {
     color: var(--bright_Red);
   }
