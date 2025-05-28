@@ -16,6 +16,7 @@
 /* #### Dark Theme */
 
 --Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+ /* ouptput of both colors is # */
 
 /* #### Light Theme */
 
@@ -186,6 +187,7 @@ header .mode {
 
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
     background-color: var(--Toggle-light);
+    background-color: var(--Toggle);
   }
 
   .fast_section {
