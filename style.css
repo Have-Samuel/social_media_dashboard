@@ -153,6 +153,7 @@ header .mode {
     width: 50%;
     height: 100%;
   }
+  
   .checkbox-wrapper-6 .tgl + .tgl-btn:after {
     left: 0;
   }
@@ -164,9 +165,6 @@ header .mode {
   }
 
   .checkbox-wrapper-6 .tgl-light + .tgl-btn {
-    /* background-color: var(--Dark-Grayish-Blue-Text);
-    border: 1px solid var(--Toggle-light); */
-    /* border: 1px solid var(--bright_Red); */
     border-radius: 2rem;
     transition: all 0.4s ease;
     display: flex;
