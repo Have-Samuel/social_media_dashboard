@@ -178,8 +178,8 @@ header .mode {
     border-radius: 50%;
     background-color: var(--White-BG);
     transition: all 0.2s ease;
-    /* border: 1px solid var(--lime_Green); */
   }
+
   .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
     background-color: var(--Toggle-light);
   }
