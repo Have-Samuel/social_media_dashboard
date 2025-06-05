@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-## Mobile(Dark)
+## Mobile (Dark)
 
 ![](./design/mobile-design-dark.jpg)
 
