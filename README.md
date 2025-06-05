@@ -32,7 +32,7 @@ Users should be able to:
 
 ![](./design/mobile-design-light.jpg)
 
-## Desktop(Light)
+## Desktop (Light)
 
 ![](./design/active-states-light.jpg)
 
