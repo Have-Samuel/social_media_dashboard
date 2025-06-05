@@ -36,7 +36,7 @@ Users should be able to:
 
 ![](./design/active-states-light.jpg)
 
-## Desktop(Dark)
+## Desktop (Dark)
 
 ![](./design/active-states-dark.jpg)
 
