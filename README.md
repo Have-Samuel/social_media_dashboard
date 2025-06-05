@@ -28,7 +28,7 @@ Users should be able to:
 
 ![](./design/mobile-design-dark.jpg)
 
-## Mobile(Light)
+## Mobile (Light)
 
 ![](./design/mobile-design-light.jpg)
 
